@@ -6,7 +6,11 @@
   scroll-behavior: smooth;
 }
 
- .nav, .intro-text {
+.nav-social, .nav-bar, .partners, .footer {
+  display: none;
+}
+
+.nav, .intro-text {
   background-image: url("../Images/nav-bg.jpg");
 }
 
@@ -258,7 +262,7 @@
     display: block;
     width: max-content;
     margin: 0 auto;
-    
+
     color: white;
     padding-top: 20px;
   }
