@@ -213,10 +213,6 @@
     height: 90vh;
   }
 
-  .main-program {
-    /* text-align: center; */
-  }
-
   .main-program-container {
     display: flex;
     flex-direction: row;
@@ -296,6 +292,7 @@
     justify-content: center;
     align-items: center;
     height: 70px;
+    background-color: #2E2E2E;
   }
 
   .footer > img {
@@ -305,6 +302,7 @@
 
   .footer > div {
     margin-right: 30%;
+    color: white;
   }
   
   #footer-logo {

@@ -215,3 +215,155 @@
   width: 50px;
 }
 
+@media screen and (min-width: 768px) {
+  .nav-ham-icon {
+    display: none;
+  }
+
+  .nav-social {
+    background-color: #3E3E3E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #nav-social-icon-1 {
+    margin-left: 70%;
+  }
+  
+  .nav-social > h6 {
+    color: white;
+    font-weight: 400;
+    font-size: 12;
+  }
+  
+  #nav-social-h63 {
+    margin-right: 10%;
+  }
+
+  .nav-ham-icon {
+    display: none;
+  }
+
+  .nav-bar {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+
+  .nav-bar > img {
+    width: 100px;
+    margin-left: 15%;
+  }
+
+  .red-color { 
+    color: #ec5242;
+  }
+
+  .nav-bar-h56 {
+    border: 3px solid #ec5242;
+    margin-right: 15%;
+    padding: 5px;
+  }
+
+  .intro-text {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .intro-text > h1 {
+    padding-top: 100px;
+  }
+
+  .intro-text > h3 {
+    display: none;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+
+  #para-border {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  #para-email {
+    display: block;
+    text-decoration: underline;
+    padding-bottom: 100px;
+  }
+
+  #body-h31, #body-h32 {
+    display: none;
+  }
+
+  #body-h34 {
+    padding-top: 50px;
+  }
+
+  #hidden {
+    display: none;
+  }
+
+  #body-para {
+    display: block;
+    width: 60%;
+    font-weight: 400;
+    font-size: 10;
+    margin: 20px auto;
+  }
+
+  .body-logo-container {
+    width: 30%;
+    margin-bottom: 40px;
+  }
+
+  #body-hr1 {
+    width: 3%;
+  }
+
+  .body-card-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .body-card {
+    width: 30%;
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #2E2E2E;
+  }
+
+  .footer > img {
+    margin-left: 20%;
+    margin-right: 10%;
+  }
+
+  .footer > div {
+    margin-right: 30%;
+    color: white;
+  }
+  
+  #footer-logo {
+    width: 150px;
+  }
+
+}
