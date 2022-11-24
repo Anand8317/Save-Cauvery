@@ -10,27 +10,28 @@
 </head>
 <body>
   <header class="nav">
-    <div class="nav-social">
-      <img id="nav-social-icon-1" src="Images/nav-f.png">
-      <img src="Images/nav-t.png">
-      <h6>English</h6>
-      <h6>My Page</h6>
-      <h6 id="nav-social-h63">Logout</h6>
-    </div>
-    <div class="nav-bar">
-      <img src="Images/footer-logo.png">
-      <h5 class="red-color">About</h5>
-      <h5>Program</h5>
-      <h5>Join</h5>
-      <h5>Sponsor</h5>
-      <h5>News</h5>
-      <h5 class="red-color nav-bar-h56">SC Campaign</h5>
-    </div>
     <div class="nav-ham-icon">
       <div class="bar bar1"></div>
       <div class="bar bar2"></div>
       <div class="bar bar3"></div>
     </div>
+    <div class="nav-social">
+      <a href="" id="nav-social-icon-1"><img src="Images/nav-f.png"></a>
+      <a href=""><img src="Images/nav-t.png"></a>
+      <a href=""><h6>English</h6></a>
+      <a href=""><h6>My Page</h6></a>
+      <a href="" id="nav-social-h63"><h6 >Logout</h6></a>
+    </div>
+    <div class="nav-bar">
+      <a href="index.html" class="nav-bar-a1" ><img class="nav-bar-image" src="Images/footer-logo.png"></a>
+      <a href="about.html"><h5 class="red-color">About</h5></a>
+      <a href="#program"><h5>Program</h5></a>
+      <a href="#join"><h5>Join</h5></a>
+      <a href="#sponsor"><h5>Sponsor</h5></a>
+      <a href=""><h5>News</h5></a>
+      <a href="" class="nav-bar-h56"><h5 class="red-color">SC Campaign</h5></a>
+    </div>
+    
   </header>
 
   <section class="intro-text">
@@ -41,7 +42,7 @@
     <p id="para-place">@ Cauvery River Karnataka, Tamilnadu</p>
   </section>
 
-  <section class="main-program">
+  <section class="main-program" id="program">
     <h2 id="main-program-header">Main Program</h2>
     <hr id="main-program-hr"/>
     <div class="main-program-container">
@@ -75,11 +76,32 @@
     <h3>SEE THE WHOLE PROGRAM</h3>
   </section>
 
-  <section class="partners">
+  <section class="partners" id="sponsor">
     <h3>Partner</h3>
     <hr id="body-hr3">
-    <div class="container text-center">
+    <div class="container text-center partners-mobile">
       <div class="row" id="row1">
+        <div class="col">
+          <img src="Images/partner1.png">
+        </div>
+        <div class="col">
+          <img src="Images/partner3.png">
+        </div>
+        <div class="col">
+          <img src="Images/partner4.png">
+        </div>
+      </div>
+      <div class="row" id="row2">
+        <div class="col">
+          <img src="Images/partner5.png">
+        </div>
+        <div class="col">
+          <img src="Images/partner2.png">
+        </div>
+      </div>
+    </div>
+    <div class="container text-center partners-desktop">
+      <div class="row" id="row12">
         <div class="col">
           <img src="Images/partner1.png">
         </div>
@@ -106,6 +128,7 @@
       <h6>Some Rights Reserved</h6>
     </div>
   </footer>
-  
+
 </body>
+<script src="js/index.js"></script>
 </html>
