@@ -16,19 +16,21 @@ menuButton.addEventListener('click', () => {
   header.classList.toggle('pressed');
 });
 
-if (bar[0].classList.contains('pressed')) {
+
   Array.from(headerItems).forEach((element) => {
     element.addEventListener('click', () => {
-      Array.from(bar).forEach((element) => {
-        element.classList.toggle('pressed');
-      });
-      navSocial.classList.toggle('active');
-      navBar.classList.toggle('active');
-      menuButton.classList.toggle('pressed');
-      header.classList.toggle('pressed');
+      if (bar[0].classList.contains('pressed')) {
+        Array.from(bar).forEach((element) => {
+          element.classList.toggle('pressed');
+        });
+        navSocial.classList.toggle('active');
+        navBar.classList.toggle('active');
+        menuButton.classList.toggle('pressed');
+        header.classList.toggle('pressed');
+      }
     });
   });
-}
+
 
 const speakerList = [
   {
