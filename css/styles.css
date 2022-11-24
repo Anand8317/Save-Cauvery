@@ -120,6 +120,7 @@ h1 {
 .main-program-item > img {
   width: 23px;
   height: 33px;
+  margin-right: 10px;
 }
 
 .main-program-item {
@@ -427,6 +428,7 @@ h1 {
 
   .main-program-container > .main-program-item > img {
     padding-top: 15px;
+    margin-right: 0;
   }
 
   .main-program-button {
