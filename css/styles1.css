@@ -253,7 +253,7 @@
 }
 
 .nav-bar > a > img {
-  width: 40%;
+  width: 20%;
   margin: 0 auto;
   margin-top: 10px;
 }
@@ -311,7 +311,7 @@
   }
 
   .nav-bar > a > img {
-    width: 100px;
+    width: 40px;
   }
 
   .nav-bar-a1 {
@@ -477,4 +477,7 @@
     width: 150px;
   }
 
+  #footer-logo {
+    width: 50px;
+  }
 }

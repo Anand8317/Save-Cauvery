@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 
-.nav-social, .nav-bar {
+.nav-social, .nav-bar, .mi-hidden {
   display: none;
 }
 
@@ -170,7 +170,7 @@
 }
 
 .nav-bar > a > img {
-  width: 40%;
+  width: 20%;
   margin: 0 auto;
   margin-top: 10px;
 }
@@ -244,6 +244,77 @@
   width: 50px;
 }
 
+.speakers {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.speaker > img {
+  width: 30%;
+}
+
+.speaker > .speaker-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.speaker > .speaker-info > h4 {
+  padding-left: 20px;
+
+}
+
+.speaker > .speaker-info > h5 {
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 20px;
+  font-style: italic;
+  color: #ec5242;
+}
+
+.speaker-info > hr {
+  height: 1px;
+  background-color: #d3d3d3;
+  width: 7%;
+  margin-left: 20px;
+}
+
+.speaker > .speaker-info > p {
+  font-weight: 400;
+  font-size: 10px;
+  padding-left: 20px;
+}
+
+.speaker-hr {
+  height: 1px;
+  background-color: #ec5242;
+  width: 7%;
+  margin: 5px auto;
+  margin-bottom: 20px;
+}
+
+.speaker-h31 {
+  padding-top: 20px;
+}
+
+.speaker-button {
+  width: 90%;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 @media screen and (min-width: 768px) {
   .nav-social {
     background-color: #3E3E3E;
@@ -279,7 +350,7 @@
   }
 
   .nav-bar > a > img {
-    width: 100px;
+    width: 40px;
   }
 
   .nav-bar-a1 {
@@ -428,4 +499,41 @@
     width: 150px;
   }
 
+  .speaker-hr {
+    width: 3%;
+  }
+
+  .speaker-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .speaker {
+    width: 40%;
+  }
+
+  .speaker-button {
+    display: none;
+  }
+
+  .speaker > img {
+    width: 35%;
+  }
+
+  .speaker > .speaker-info > h5 {
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .speaker > .speaker-info > p {
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  #footer-logo {
+    width: 50px;
+  }
 }
