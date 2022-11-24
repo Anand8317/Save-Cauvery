@@ -6,11 +6,14 @@
   scroll-behavior: smooth;
 }
 
-.nav-social, .nav-bar, .mi-hidden {
+.nav-social,
+.nav-bar,
+.mi-hidden {
   display: none;
 }
 
-.nav, .intro-text {
+.nav,
+.intro-text {
   background-image: url("../Images/nav-bg.png");
 }
 
@@ -30,28 +33,29 @@
   transition: 0.4s;
 }
 
-.bar1.pressed{
+.bar1.pressed {
   transform: translate(0, 11px) rotate(-45deg);
   background-color: white;
 }
 
-.bar2.pressed {opacity: 0;}
+.bar2.pressed { opacity: 0; }
 
 .bar3.pressed {
   transform: translate(0, -11px) rotate(45deg);
   background-color: white;
 }
 
-.intro-text > h3,h1 {
+.intro-text > h3,
+h1 {
   padding: 0 20px;
   color: #ec5242;
-  font-size: 20;
+
+  /* font-size: 20; */
 }
 
 .intro-text > h1 {
   font-weight: 700;
   font-size: 36px;
-  
 }
 
 #para-border {
@@ -85,6 +89,7 @@
 #main-program-header {
   display: inline-block;
   color: white;
+
   /* margin: 0 auto;
   margin-left: 50%;
   transform: translateX(-50%); */
@@ -104,15 +109,15 @@
   flex-direction: column;
 }
 
-.main-program-item>img,h3,p {
+.main-program-item > img p {
   padding: 0 20px;
 }
 
-.main-program-item>h3 {
+.main-program-item > h3 {
   color: #ec5242;
 }
 
-.main-program-item>img {
+.main-program-item > img {
   width: 23px;
   height: 33px;
 }
@@ -126,7 +131,7 @@
   background-image: url("../Images/mpi-bg.png");
   width: 95%;
   justify-content: space-between;
- }
+}
 
 .mpi-p {
   font-weight: 400;
@@ -147,14 +152,14 @@
 .nav-social.active {
   display: flex;
   justify-content: center;
-  background-color: #3E3E3E;
+  background-color: #3e3e3e;
   align-items: center;
 }
 
 .nav-social.active > a {
   margin-right: 2px;
   text-decoration: none;
-  color: white; 
+  color: white;
 }
 
 .nav-bar.active {
@@ -182,8 +187,10 @@
   background-image: none;
 }
 
-.nav.pressed, .nav-social.active, .nav-bar.active {
-  background-color: #3E3E3E;
+.nav.pressed,
+.nav-social.active,
+.nav-bar.active {
+  background-color: #3e3e3e;
 }
 
 .nav-ham-icon.pressed {
@@ -218,7 +225,7 @@
   margin-bottom: 30px;
 }
 
-.col > img {
+.row > .col > img {
   width: 100px;
 }
 
@@ -265,7 +272,7 @@
   padding-bottom: 20px;
 }
 
-.speaker > img {
+.speaker-container > .speaker > img {
   width: 30%;
 }
 
@@ -277,7 +284,6 @@
 
 .speaker > .speaker-info > h4 {
   padding-left: 20px;
-
 }
 
 .speaker > .speaker-info > h5 {
@@ -324,22 +330,23 @@
 
 @media screen and (min-width: 768px) {
   .nav-social {
-    background-color: #3E3E3E;
+    background-color: #3e3e3e;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  
+
   #nav-social-icon-1 {
     margin-left: 70%;
   }
-  
+
   .nav-social > a > h6 {
     color: white;
     font-weight: 400;
-    font-size: 12;
+
+    /* font-size: 12; */
   }
-  
+
   #nav-social-h63 {
     margin-right: 10%;
   }
@@ -368,7 +375,7 @@
     text-decoration: none;
   }
 
-  .red-color { 
+  .red-color {
     color: #ec5242;
   }
 
@@ -378,7 +385,9 @@
     padding: 5px;
   }
 
-  .intro-text > h1, .intro-text > h3, .intro-text > p {
+  .intro-text > h1,
+  .intro-text > h3,
+  .intro-text > p {
     padding-left: 15%;
   }
 
@@ -416,7 +425,7 @@
     margin-right: 2px;
   }
 
-  .main-program-item > img{
+  .main-program-container > .main-program-item > img {
     padding-top: 15px;
   }
 
@@ -439,13 +448,13 @@
     display: block;
     background-color: #414246;
   }
-  
+
   .partners > .partners-desktop {
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
   }
-  
+
   .partners > h3 {
     display: block;
     width: max-content;
@@ -453,7 +462,7 @@
     color: white;
     padding-top: 20px;
   }
-  
+
   #body-hr3 {
     height: 1px;
     width: 3%;
@@ -462,15 +471,16 @@
     border: none;
     margin-bottom: 10px;
   }
-  
-  .col > img {
+
+  .row > .col > img {
     width: 100px;
   }
 
-  #row1, #row2 {
+  #row1,
+  #row2 {
     display: none;
   }
-  
+
   #row12 {
     margin-bottom: 20px;
     display: flex;
@@ -492,18 +502,15 @@
     padding-top: 20px;
   }
 
-  .footer > img {
-    margin-left: 20%;
-    margin-right: 10%;
-  }
-
   .footer > div {
     margin-right: 30%;
     color: black;
   }
-  
+
   #footer-logo {
-    width: 150px;
+    margin-left: 20%;
+    margin-right: 10%;
+    width: 50px;
   }
 
   .speaker-hr {
@@ -526,7 +533,7 @@
     display: none;
   }
 
-  .speaker > img {
+  .speaker-container > .speaker > img {
     width: 35%;
   }
 
@@ -540,9 +547,9 @@
     font-size: 10px;
   }
 
-  #footer-logo {
+  /* #footer-logo {
     width: 50px;
-  }
+  } */
 
   .main-program {
     padding-bottom: 50px;

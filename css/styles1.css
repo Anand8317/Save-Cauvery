@@ -1,16 +1,20 @@
 * {
   margin: 0;
   padding: 0;
+
   /* color: var(--lightBlack); */
   font-family: 'Lato', sans-serif;
   scroll-behavior: smooth;
 }
 
- .nav, .intro-text {
+.nav,
+.intro-text {
   background-image: url("../Images/nav-bg.png");
 }
 
-.nav-social, .nav-bar, .partners-desktop{
+.nav-social,
+.nav-bar,
+.partners-desktop {
   display: none;
 }
 
@@ -30,22 +34,24 @@
   transition: 0.4s;
 }
 
-.bar1.pressed{
+.bar1.pressed {
   transform: translate(0, 11px) rotate(-45deg);
   background-color: white;
 }
 
-.bar2.pressed {opacity: 0;}
+.bar2.pressed { opacity: 0; }
 
 .bar3.pressed {
   transform: translate(0, -11px) rotate(45deg);
   background-color: white;
 }
 
-.intro-text > h3,h1 {
+.intro-text > h3,
+h1 {
   padding: 0 20px;
   color: #ec5242;
-  font-size: 20;
+
+  /* font-size: 20; */
 }
 
 .intro-text > h1 {
@@ -53,7 +59,6 @@
   font-size: 36px;
   display: block;
   padding: 0 40px;
-  
 }
 
 .intro-text > h3 {
@@ -108,8 +113,8 @@
 #body-h32 {
   display: block;
   width: max-content;
-  margin-top: 10px;
   margin: 0 auto;
+  margin-top: 10px;
 }
 
 #body-hr1 {
@@ -141,8 +146,8 @@
 #body-h33 {
   display: block;
   width: max-content;
-  margin-top: 30px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 #body-para1 {
@@ -160,7 +165,8 @@
   height: 200px;
 }
 
-.body-card > h2, .body-card > h5 {
+.body-card > h2,
+.body-card > h5 {
   color: white;
 }
 
@@ -231,14 +237,14 @@
 .nav-social.active {
   display: flex;
   justify-content: center;
-  background-color: #3E3E3E;
+  background-color: #3e3e3e;
   align-items: center;
 }
 
 .nav-social.active > a {
   margin-right: 2px;
   text-decoration: none;
-  color: white; 
+  color: white;
 }
 
 .nav-bar.active {
@@ -265,8 +271,10 @@
   background-image: none;
 }
 
-.nav.pressed, .nav-social.active, .nav-bar.active {
-  background-color: #3E3E3E;
+.nav.pressed,
+.nav-social.active,
+.nav-bar.active {
+  background-color: #3e3e3e;
 }
 
 .nav-ham-icon.pressed {
@@ -274,7 +282,8 @@
   background-image: none;
 }
 
-#body-h34, #body-para {
+#body-h34,
+#body-para {
   display: none;
 }
 
@@ -284,28 +293,25 @@
   }
 
   .nav-social {
-    background-color: #3E3E3E;
+    background-color: #3e3e3e;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  
+
   #nav-social-icon-1 {
     margin-left: 70%;
   }
-  
+
   .nav-social > a > h6 {
     color: white;
     font-weight: 400;
-    font-size: 12;
-  }
-  
-  #nav-social-h63 {
-    margin-right: 10%;
+
+    /* font-size: 12; */
   }
 
-  .nav-ham-icon {
-    display: none;
+  #nav-social-h63 {
+    margin-right: 10%;
   }
 
   .nav-bar {
@@ -328,7 +334,7 @@
     text-decoration: none;
   }
 
-  .red-color { 
+  .red-color {
     color: #ec5242;
   }
 
@@ -343,6 +349,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    text-align: center;
   }
 
   .intro-text > h1 {
@@ -353,9 +360,9 @@
     display: none;
   }
 
-  .intro-text {
-    text-align: center;
-  }
+  /* .intro-text {
+
+  } */
 
   #para-border {
     width: 60%;
@@ -368,7 +375,8 @@
     padding-bottom: 100px;
   }
 
-  #body-h31, #body-h32 {
+  #body-h31,
+  #body-h32 {
     display: none;
   }
 
@@ -384,7 +392,8 @@
     display: block;
     width: 60%;
     font-weight: 400;
-    font-size: 10;
+
+    /* font-size: 10; */
     margin: 20px auto;
   }
 
@@ -418,13 +427,13 @@
     display: block;
     background-color: #414246;
   }
-  
+
   .partners > .partners-desktop {
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
   }
-  
+
   .partners > h3 {
     display: block;
     width: max-content;
@@ -432,7 +441,7 @@
     color: white;
     padding-top: 20px;
   }
-  
+
   #body-hr3 {
     height: 1px;
     width: 3%;
@@ -441,15 +450,16 @@
     border: none;
     margin-bottom: 10px;
   }
-  
-  .col > img {
+
+  .row > .col > img {
     width: 100px;
   }
 
-  #row1, #row2 {
+  #row1,
+  #row2 {
     display: none;
   }
-  
+
   #row12 {
     margin-bottom: 20px;
     display: flex;
@@ -469,21 +479,23 @@
     background-color: #d3d3d3;
   }
 
-  .footer > img {
+  /* .footer > img {
     margin-left: 20%;
     margin-right: 10%;
-  }
+  } */
 
   .footer > div {
     margin-right: 30%;
     color: black;
   }
-  
-  #footer-logo {
-    width: 150px;
-  }
 
   #footer-logo {
+    margin-left: 20%;
+    margin-right: 10%;
     width: 50px;
   }
+
+  /* #footer-logo {
+
+  } */
 }
