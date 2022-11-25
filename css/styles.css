@@ -47,14 +47,20 @@
   background-color: white;
 }
 
-.intro-text > h3,
-h1 {
+.intro-text > h3
+{
   padding: 0 20px;
-  color: #ec5242;
+  color: rgb(255, 73, 37);
 }
 
 .intro-text > h1 {
-  font-weight: 700;
+  padding: 0 20px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url(https://w0.peakpx.com/wallpaper/194/474/HD-wallpaper-red-and-orange-texture-red-aesthetic.jpg);
+  color: transparent;
+  background-position: center;
+  font-weight: 900;
   font-size: 40px;
 }
 
@@ -67,22 +73,23 @@ h1 {
   border: 1px solid white;
   margin: 30px 10px;
   padding: 10px;
-  color: #272a31;
+  color: #5d5d5d;
 }
 
 #para-time {
   padding: 0 20px;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 26px;
-  color: #272a31;
+  color: #5d5d5d;
+  
 }
 
 #para-place {
   display: block;
   padding: 0 20px;
-  color: #272a31;
+  color: #5d5d5d;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 18px;
   padding-bottom: 100px;
 }
 
@@ -397,8 +404,9 @@ h1 {
   }
 
   .intro-text > h1 {
-    font-weight: 700;
-    font-size: 44px;
+    font-weight: 900;
+    font-size: 48px;
+    background-position: center left;
   }
 
   .intro-text > h3 {
@@ -409,6 +417,20 @@ h1 {
     display: block;
     width: 40%;
     margin-left: 15%;
+    border: 2px solid white;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  #para-time {
+    font-weight: 900;
+    font-size: 26px;
+  }
+
+  #para-place {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 5px;
   }
 
   .intro-text > p {

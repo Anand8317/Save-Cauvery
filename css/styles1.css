@@ -70,6 +70,9 @@ h1 {
   padding: 10px;
   color: #272a31;
   background-color: white;
+  color: #5d5d5d;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 #para-place {
@@ -78,9 +81,10 @@ h1 {
   color: #272a31;
   font-weight: 400;
   font-size: 14px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   width: 80%;
   margin: 0 auto;
+  color: #5d5d5d;
 }
 
 #para-email {
@@ -88,6 +92,9 @@ h1 {
   margin-left: 50%;
   transform: translateX(-50%);
   margin-bottom: 30px;
+  text-decoration: underline;
+  font-weight: 750;
+  color: #5d5d5d;
 }
 
 .body {
@@ -99,6 +106,7 @@ h1 {
   margin: 0 auto;
   margin-top: 30px;
   width: max-content;
+  color: #5d5d5d;
 }
 
 .body > p {
@@ -111,6 +119,7 @@ h1 {
   width: max-content;
   margin: 0 auto;
   margin-top: 10px;
+  color: #5d5d5d;
 }
 
 #body-hr1 {
@@ -144,10 +153,21 @@ h1 {
   width: max-content;
   margin: 0 auto;
   margin-top: 30px;
+  color: #5d5d5d;
+}
+
+#body-h34 {
+  color: #5d5d5d;
 }
 
 #body-para1 {
   margin-bottom: 30px;
+  color: #5d5d5d;
+}
+
+#hidden {
+  color: #5d5d5d;
+  padding-bottom: 10px;
 }
 
 .body-card {
@@ -372,16 +392,22 @@ h1 {
   #para-email {
     display: block;
     text-decoration: underline;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
   }
 
   #body-h31,
-  #body-h32 {
+  #body-h34 {
     display: none;
   }
 
   #body-h34 {
     padding-top: 50px;
+    color: #5d5d5d;
+  }
+
+  #body-h32 {
+    padding-top: 20px;
+    color: #5d5d5d;
   }
 
   #hidden {
@@ -393,6 +419,7 @@ h1 {
     width: 60%;
     font-weight: 400;
     margin: 20px auto;
+    color: #5d5d5d;
   }
 
   .body-logo-container {
