@@ -268,7 +268,7 @@ h1 {
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: #d3d3d3;
+  background-color: #f8f8f8;
 }
 
 .speaker {
@@ -303,7 +303,6 @@ h1 {
 
 .speaker-info > hr {
   height: 1px;
-  background-color: #d3d3d3;
   width: 7%;
   margin-left: 20px;
 }
