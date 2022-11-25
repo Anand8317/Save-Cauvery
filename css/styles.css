@@ -135,6 +135,10 @@ h1 {
   justify-content: space-between;
 }
 
+.main-program-item:hover {
+  border: 1px solid white;
+}
+
 .mpi-p {
   font-weight: 400;
   font-size: 14px;
