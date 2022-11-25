@@ -68,7 +68,6 @@ h1 {
   border: 1px solid white;
   margin: 30px 10px;
   padding: 10px;
-  color: #272a31;
   background-color: white;
   color: #5d5d5d;
   font-size: 12px;
@@ -78,7 +77,6 @@ h1 {
 #para-place {
   display: block;
   padding: 0 20px;
-  color: #272a31;
   font-weight: 400;
   font-size: 14px;
   padding-bottom: 5px;

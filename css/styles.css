@@ -47,8 +47,7 @@
   background-color: white;
 }
 
-.intro-text > h3
-{
+.intro-text > h3 {
   padding: 0 20px;
   color: rgb(255, 73, 37);
 }
@@ -56,7 +55,6 @@
 .intro-text > h1 {
   padding: 0 20px;
   -webkit-background-clip: text;
-  background-clip: text;
   background-image: url(https://w0.peakpx.com/wallpaper/194/474/HD-wallpaper-red-and-orange-texture-red-aesthetic.jpg);
   color: transparent;
   background-position: center;
@@ -81,7 +79,6 @@
   font-weight: 900;
   font-size: 26px;
   color: #5d5d5d;
-  
 }
 
 #para-place {
@@ -117,18 +114,15 @@
   flex-direction: column;
 }
 
-.main-program-item > img p {
+.main-program-item > img {
   padding: 0 20px;
+  width: 23px;
+  height: 33px;
+  margin-right: 10px;
 }
 
 .main-program-item > h3 {
   color: #ec5242;
-}
-
-.main-program-item > img {
-  width: 23px;
-  height: 33px;
-  margin-right: 10px;
 }
 
 .main-program-item {
@@ -151,6 +145,8 @@
   font-size: 14px;
   padding: 10px;
   color: white;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .main-program-button {
@@ -587,5 +583,9 @@
 
   .main-program {
     padding-bottom: 50px;
+  }
+
+  .mpi-p {
+    text-align: center;
   }
 }
