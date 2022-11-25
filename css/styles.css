@@ -55,7 +55,7 @@ h1 {
 
 .intro-text > h1 {
   font-weight: 700;
-  font-size: 44px;
+  font-size: 40px;
 }
 
 #intro-h3 {
@@ -390,6 +390,11 @@ h1 {
   .intro-text > h3,
   .intro-text > p {
     padding-left: 15%;
+  }
+
+  .intro-text > h1 {
+    font-weight: 700;
+    font-size: 44px;
   }
 
   .intro-text > h3 {
