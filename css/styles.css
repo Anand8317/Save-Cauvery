@@ -97,13 +97,15 @@
 
 #main-program-header {
   display: inline-block;
-  color: white;
+  color: #d3d3d3;
   margin-top: 30px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 #main-program-hr {
-  border: 1px solid red;
-  width: 45px;
+  width: 30px;
+  background-color: red;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -305,9 +307,10 @@
 }
 
 .speaker-info > hr {
-  height: 1px;
+  height: 0.1px;
   width: 7%;
   margin-left: 20px;
+  background-color: #3e3e3e;
 }
 
 .speaker > .speaker-info > p {
