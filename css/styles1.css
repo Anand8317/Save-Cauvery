@@ -344,14 +344,16 @@ h1 {
     height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
   }
 
   .intro-text > h1 {
-    padding-top: 100px;
-    font-weight: 700;
+    padding-top: 50px;
+    font-weight: 900;
     font-size: 44px;
+    width: 50%;
+    margin: 20PX auto;
   }
 
   .intro-text > h3 {
@@ -359,8 +361,12 @@ h1 {
   }
 
   #para-border {
-    width: 60%;
-    margin: 0 auto;
+    width: 50%;
+    margin: 20PX auto;
+  }
+
+  #para-place {
+    padding-top: 20PX;
   }
 
   #para-email {
