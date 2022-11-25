@@ -7,7 +7,7 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="Images/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 
@@ -18,7 +18,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Capstone-Project: Summer BootCamp 2023 ](#-capstone-project-summer-bootcamp-2023-)
+- [📖 Capstone-Project: Save Cauvery 2022 ](#-capstone-project-summer-bootcamp-2023-)
   - [🛠 Built With ](#-built-with-)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
@@ -33,7 +33,7 @@
 
 # 📖 Capstone-Project: Save Cauvery 2022 <a name="about-project"></a>
 
-**[Save Cauvery 2022]** is the initiative to aware people about the climate change specially about water conservation.
+**Save Cauvery 2022** is the initiative to aware people about the climate change specially about water conservation.
 
 [Loom Video Presentation](https://www.loom.com/share/13e56a6dbd564e8aa6537dbcc7983f96)
 
@@ -122,3 +122,8 @@ Give a ⭐️ if you like this project!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project license is classified as None.
